@@ -9,7 +9,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'faker'
 
 group :development, :test do
-  gem 'pry'
+  gem 'pry-rails'
   gem 'capybara'
   gem 'rspec-rails'
 end
