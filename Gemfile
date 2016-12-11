@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-gem 'sidekiq'
 gem 'rails', '4.2.5'
 gem 'sqlite3'
 gem 'sass-rails', '~> 5.0'
@@ -12,6 +11,7 @@ group :development, :test do
   gem 'pry'
   gem 'capybara'
   gem 'rspec-rails'
+  gem 'sidekiq'
 end
 
 group :development do
